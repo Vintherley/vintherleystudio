@@ -109,7 +109,14 @@ a {
  
 }
 /*forside*/
-
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
 /*Aboutme paige*/
 .image-container {
   display: flex;
@@ -122,7 +129,32 @@ a {
 /*products*/
 
 /*contanct*/
+body {
+  font-family: Arial, sans-serif;
+}
 
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
 @media only screen and (min-width: 750px) {
   .navigation ul {
     flex-wrap: nowrap; 
