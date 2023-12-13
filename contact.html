@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Website</title>
   <link rel="stylesheet" href="vintherleyMain.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <nav class="navigation">
-  <a href="Vintherleystudio.html">
+  <a href="index.html">
     <img src="img/logo_Hvid_2.png" alt="Logo" class="logo">
   </a>
   <ul>
@@ -19,12 +20,23 @@
   </ul>
 </nav>
 
-<body>
-    <h1>Contact</h1>
-    <h2>Dreaming is Believing</h2>
-    <img src="#" alt="tekst">
-</body>
- <!-- footer-->
+<h1>Contact</h1>
+<h2>Dreaming is Believing</h2>
+
+<form action="process_form.php" method="post" class="contact-form">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4" required></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+
+<!-- footer-->
 <footer class="footer">
   <div class="contact-info">
     <p>Contact Information:</p>
@@ -34,8 +46,8 @@
   </div>
   <div class="social-icons">
     <ul>
-        <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram_logo.png" alt="Instagram"></a></li>
-        <li><a href="https://www.facebook.com/" target="_blank"><img src="img/facebook_logo.png2" alt="Facebook"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram_logo.png" alt="Instagram"></a></li>
+      <li><a href="https://www.facebook.com/" target="_blank"><img src="img/facebook_logo2.png" alt="Facebook"></a></li>
     </ul>
   </div>
 </footer>
